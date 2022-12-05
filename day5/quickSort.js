@@ -1,5 +1,5 @@
 /*
-Relies on the Divide and Conquer.
+Relies on the Divide and Conquer Technique.
 
 Divide: Locate the pivot element (can be any element. I have picked the first one). 
         Create an empty left array and an empty right array.
