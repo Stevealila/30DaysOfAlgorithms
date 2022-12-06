@@ -15,7 +15,7 @@ def searchRotatedSortedArray(nums, target):
         if nums[mid] == target: return mid
 
 
-        # we in left sorted sub array if the midpoint's element is greater than the leftmost element.
+        # we are in left sorted sub array if the midpoint's element is greater than the leftmost element.
         if nums[mid] > nums[left]:
             if target < nums[mid] and target >= nums[left]:
                 right = mid - 1
