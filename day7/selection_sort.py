@@ -18,4 +18,4 @@ def selectionSort(arr):
 
 
 arr = [19, 13, 17, 15, 11]
-print(selectionSort(arr))
+print(selectionSort(arr)) #[11, 13, 15, 17, 19]
