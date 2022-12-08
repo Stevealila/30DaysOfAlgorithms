@@ -3,7 +3,7 @@ Locate the minimum element and append it to second list,
 while removing the element from its initial parent.
 Repeat the process until the original list is empty.
 
-Runs in 0(n*2)
+Runs in 0(n^2)
 """
 
 def selectionSort(arr):
