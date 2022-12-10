@@ -12,20 +12,20 @@ def twoSumII(arr, target):
     Keep reassigning the pointers,
     while summing them and 
     comparing the sum with target
-    until (1) target found or (2) the pointers collide without find the target.
+    until (1) target found or (2) the pointers collide without finding the target.
     """
     while left <= right:
         # sum the two pointers
         sum = arr[left] + arr[right] 
-        # target found
+        # target found? Return the matching indices (+1 because it is a 1-based array)
         if sum == target: return [left+1, right+1]
-        # otherwise, reassign the pointers
+        # Otherwise, reassign the pointers.
         if sum < target: 
             left += 1
         else: 
             right -= 1
 
-    # no matching indices
+    # No matching indices
     return []
 
 
