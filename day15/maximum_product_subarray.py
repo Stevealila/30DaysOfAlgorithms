@@ -14,7 +14,7 @@ def maxProductSubarray(arr):
     maxN, minN  = 1, 1
 
     for n in arr:
-        # temporary (maxN) container to accommodate swapping in the minN equation.
+        # temporary (maxN) container to avoid overriding it in the minN equation.
         tmpMax = maxN * n
 
         maxN = max(n, minN * n, maxN * n)
