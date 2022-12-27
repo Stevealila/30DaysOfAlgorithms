@@ -27,6 +27,9 @@ def validPalindrome(s):
     
 
 
+s = "Alila"
+print(validPalindrome(s)) # True
+
 s = "A man, a plan, a canal: Panama"
 print(validPalindrome(s)) # True
 
